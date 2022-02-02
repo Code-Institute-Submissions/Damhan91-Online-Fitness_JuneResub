@@ -17,6 +17,12 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}"></head>
 <body>
 
+    <main class="flex-shrink-0 main-bg">
+        {% block content %}
+        <!-- Content Goes here -->
+        {% endblock content %}
+    </main>
+    
 <footer>
     <ul id="social-links">
         <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
