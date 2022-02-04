@@ -1,11 +1,11 @@
 /*base.html*/
 
 body{
-    background-color: black;
+    background-color: black
 }
 
 #banner{
-    height: 600px;
+    height: 800px;
     width: 100%; 
 }
 
