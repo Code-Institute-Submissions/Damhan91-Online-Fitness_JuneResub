@@ -1,0 +1,29 @@
+/*base.html*/
+
+body{
+    background-color: black;
+}
+
+#banner{
+    height: 600px;
+    width: 100%; 
+}
+
+h1{
+    color: white;
+}
+
+#social-links{
+    text-align: center;    
+}
+
+#social-links > li{
+    display: inline;     
+}
+
+#social-links  i{
+    font-size: 200%;    
+    color: white;
+    padding-right: 7%;
+    line-height: 100px;   
+}
