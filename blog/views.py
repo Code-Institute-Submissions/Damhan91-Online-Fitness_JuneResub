@@ -5,6 +5,6 @@ from .models import Post
 
 class Postlist(generic.ListView):
     model = Post
-    template_name = 'index.html'
+    template_name = 'home.html'
     ordering = ['-created_on']
     paginate_by = 4
