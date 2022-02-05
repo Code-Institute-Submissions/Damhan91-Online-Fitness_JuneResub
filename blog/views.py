@@ -5,6 +5,9 @@ from .models import Post
 
 class Postlist(generic.ListView):
     model = Post
-    template_name = 'home.html'
+    template_name = 'base.html'
     ordering = ['-created_on']
     paginate_by = 4
+
+def hompage(request):
+    return render(request, 'home.html')

@@ -26,13 +26,17 @@
     <h1> Online Fitness </h1>
 
     <nav>
-        
-
     </nav>
 
     <section>
         <img id="banner" src="{% static 'images/gym1.jpg' %}" alt="" />
     </section>
+
+    <main>
+        {% block content %}
+        <!-- Content Goes here -->
+        {% endblock content %}
+    </main>
 
     <footer>
         <ul id="social-links">
