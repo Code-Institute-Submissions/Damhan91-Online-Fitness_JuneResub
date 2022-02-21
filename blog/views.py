@@ -28,3 +28,7 @@ class PostDetail(View):
                 "liked": liked
             },
         )
+        
+
+def home(response):
+    return render(response, 'home.html')
