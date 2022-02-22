@@ -32,3 +32,7 @@ class PostDetail(View):
 
 def home(response):
     return render(response, 'home.html')
+    
+
+def login(response):
+    return render(response, 'login.html')
