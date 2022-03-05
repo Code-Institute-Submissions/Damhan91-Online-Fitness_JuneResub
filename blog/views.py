@@ -34,3 +34,7 @@ class PostDetail(View):
 
 def home(response):
     return render(response, 'home.html')
+
+
+def nutrition(response):
+    return render(response, 'nutrition.html')
