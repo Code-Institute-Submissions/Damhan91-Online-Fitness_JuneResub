@@ -82,3 +82,7 @@ def home(response):
 
 def nutrition(response):
     return render(response, 'nutrition.html')
+
+    
+def exercises(response):
+    return render(response, 'exercises.html')
