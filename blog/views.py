@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
 from .models import Post
-from django.http import HttpResponse
+from django.http import HttpResponseRedirect
 from .forms import CommentForm
 from django.views.generic.edit import UpdateView, DeleteView
 
@@ -21,7 +21,7 @@ class PostDetail(View):
         liked = False
         if post.likes.filter(id=self.request.user.id).exists():
             liked = True
-
+            
         return render(
             request,
             "post_detail.html",
@@ -66,19 +66,16 @@ class PostDetail(View):
         )
 
 
-class PostLike(View):
-    def post(request, self, slug):
-        post = get_object_or_404(Post, slug=slug)
-        liked = False
+class PostLikes(View):
+    def post(self, request, slug, *args, **kwargs):
+            post = get_object_or_404(Post, slug=slug)
+            if post.likes.filter(id=request.user.id).exists():
+                post.likes.remove(request.user)
+            else:
+                post.likes.add(request.user)
 
-        if post.likes.filter(id=request.user.id).exists():
-            post.likes.remove(request.user)
-            liked = False
-        else:
-            post.likes.add(request.user)
-            liked = True
-    return HttpResponseRedirect(reverse('post_detail', args=[slug])
-        
+            return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+
 
 class EditComment(UpdateView):
     model = Post

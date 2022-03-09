@@ -8,5 +8,5 @@ urlpatterns = [
     path('', views.home, name='home'),
     path('nutrition', views.nutrition, name='nutrition'),
     path('exercises', views.exercises, name='exercises'),
-    path('like/<slug:slug>/', views.post_likes.as_view(), name='post_likes'),
+    path('like/<slug:slug>/', views.PostLikes.as_view(), name='post_likes'),
 ]
