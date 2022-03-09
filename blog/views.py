@@ -33,6 +33,14 @@ class PostDetail(View):
         )
         
 
+class EditComment(UpdateView):
+    model = Post
+
+
+class DeleteComment(DeleteView):
+    model = Post
+
+
 def home(response):
     return render(response, 'home.html')
 
