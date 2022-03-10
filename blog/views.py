@@ -77,6 +77,16 @@ class PostLikes(View):
             return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
 
+#
+# @login_required
+# def delete_own_comment(request, message_id):
+#   comment = get_object_or_404(comments.get_model(), pk=message_id,
+#            site__pk=settings.SITE_ID)
+#    if comment.user == request.user:
+#        comment.is_removed = True
+#        comment.save()
+
+
 class EditComment(UpdateView):
     model = Post
     field = ['body']
