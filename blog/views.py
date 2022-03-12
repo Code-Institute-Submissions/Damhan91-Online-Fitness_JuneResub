@@ -1,7 +1,9 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.contrib import messages
 from django.views import generic, View
+from django.views.generic.edit import UpdateView, DeleteView
 from .models import Post
+from django.urls import reverse_lazy
 from django.http import HttpResponseRedirect
 from .forms import CommentForm
 
@@ -75,21 +77,6 @@ class PostLikes(View):
                 post.likes.add(request.user)
 
             return HttpResponseRedirect(reverse('post_detail', args=[slug]))
-
-
-
-
-def delete_comment(request):
-    id = request.POST['comment_id']
-    pk = request.POST['blogs_id']
-    if request.method == 'POST':
-        comment = get_object_or_404(CommentForm, id=id, pk=pk)
-        try:
-            comment.delete()
-            messages.success(request, 'You have successfully deleted the comment')
-
-        except:
-            messages.warning(request, 'The comment could not be deleted.')
 
 
 def home(response):

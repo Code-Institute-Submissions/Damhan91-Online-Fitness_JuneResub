@@ -73,13 +73,12 @@
         <div class="col-md-4 card mb-4  mt-3 ">
             <div class="card-body">
                 {% if user.is_authenticated %}
-
                     <h3>Leave a comment:</h3>
                     <p>Posting as: {{user.username }}</p>
                     <form method = 'post'>
                         {{comment_form | crispy }}
                         {% csrf_token %}
-                        <button type="submit" class="btn-lg">Add Comment</button>
+                        <button type="submit" class="btn-lg, btn-success">Add Comment</button>
                     </form>
                 {% endif %}
             </div>
