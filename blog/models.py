@@ -16,6 +16,7 @@ class Post(models.Model):
     created_on = models.DateTimeField(auto_now=True)
     status = models.IntegerField(choices=STATUS, default=0)
     likes = models.ManyToManyField(User, related_name='blog_likes', blank=True)
+    
 
     class Meta:
         ordering = ['-created_on']
@@ -34,11 +35,11 @@ class Comment(models.Model):
     name = models.CharField(max_length=50)
     email = models.EmailField()
     body = models.TextField()
-    created_on = models.DateTimeField(auto_now=True)
-    approved = models.BooleanField(default=False)
+    created_on = models.DateTimeField(auto_now_add=True)
+    approved = models.BooleanField(default=True)
 
     class Meta:
         ordering = ['created_on']
 
     def __str__(self):
-        return f"comment {self.body} by {self.name}"
+        return f"{self.body} comment by {self.name}"

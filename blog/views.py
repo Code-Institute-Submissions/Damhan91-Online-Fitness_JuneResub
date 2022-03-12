@@ -1,9 +1,9 @@
 from django.shortcuts import render, get_object_or_404, reverse
+from django.contrib import messages
 from django.views import generic, View
 from .models import Post
 from django.http import HttpResponseRedirect
 from .forms import CommentForm
-from django.views.generic.edit import UpdateView, DeleteView
 
 
 class PostList(generic.ListView):
@@ -28,7 +28,7 @@ class PostDetail(View):
             {
                 "post": post,
                 "comments": comments,
-                "commented": False,
+                "commented": True,
                 "liked": liked,
                 "comment_form": CommentForm()
             },
@@ -37,7 +37,7 @@ class PostDetail(View):
     def post(self, request, slug, *args, **kwargs):
         queryset = Post.objects.filter(status=1)
         post = get_object_or_404(queryset, slug=slug)
-        comments = post.comments.filter(approved=False).order_by("-created_on")
+        comments = post.comments.filter(approved=True).order_by("-created_on")
         liked = False
         if post.likes.filter(id=self.request.user.id).exists():
             liked = True
@@ -59,7 +59,7 @@ class PostDetail(View):
             {
                 "post": post,
                 "comments": comments,
-                "commented": False,
+                "commented": True,
                 "liked": liked,
                 "comment_form": CommentForm()
             },
@@ -77,25 +77,19 @@ class PostLikes(View):
             return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
 
-#
-# @login_required
-# def delete_own_comment(request, message_id):
-#   comment = get_object_or_404(comments.get_model(), pk=message_id,
-#            site__pk=settings.SITE_ID)
-#    if comment.user == request.user:
-#        comment.is_removed = True
-#        comment.save()
 
 
-class EditComment(UpdateView):
-    model = Post
-    field = ['body']
-    template_name = 'edit-comment.html'
+def delete_comment(request):
+    id = request.POST['comment_id']
+    pk = request.POST['blogs_id']
+    if request.method == 'POST':
+        comment = get_object_or_404(CommentForm, id=id, pk=pk)
+        try:
+            comment.delete()
+            messages.success(request, 'You have successfully deleted the comment')
 
-
-class DeleteComment(DeleteView):
-    model = Post
-    template_name = 'delete-comment.html'
+        except:
+            messages.warning(request, 'The comment could not be deleted.')
 
 
 def home(response):
