@@ -2,7 +2,7 @@ from django.shortcuts import render, get_object_or_404, reverse
 from django.contrib import messages
 from django.views import generic, View
 from django.views.generic.edit import UpdateView, DeleteView
-from .models import Post
+from .models import Post, Comment
 from django.urls import reverse_lazy
 from django.http import HttpResponseRedirect
 from .forms import CommentForm
@@ -78,6 +78,18 @@ class PostLikes(View):
 
             return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
+
+class EditComment(UpdateView):
+    model = Comment
+    form_class = 'EditCom'
+    template_name = 'edit-comment'
+
+
+class DeleteComment(DeleteView):
+    model = Comment
+    template_name = 'delete-comment.html'
+    success_url = reverse_lazy('blog.html')
+    
 
 def home(response):
     return render(response, 'home.html')
