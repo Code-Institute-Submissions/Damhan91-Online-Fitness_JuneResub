@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %} Delete Your Comment {% endblock %}
+{% block content %}
+{% if user.is_authenticated %}
+{% if user.id == comment.author.id %}
+<h3>Would you like to delete your comment?</h3>
+
+<div class="form-group">
+    <form method="POST">
+        {% csrf_token %}
+        <button class="btn btn-danger btn-lg">YES</button>
+        <a href="{% url 'home' %}" class="btn btn-success btn-lg">NO</a>
+    </form>
+</div>
