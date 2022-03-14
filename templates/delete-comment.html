@@ -1,14 +1,18 @@
 {% extends 'base.html' %}
-{% block title %} Delete Your Comment {% endblock %}
+{% load crispy_forms_tags %}
 {% block content %}
-{% if user.is_authenticated %}
-{% if user.id == comment.author.id %}
-<h3>Would you like to delete your comment?</h3>
-
-<div class="form-group">
-    <form method="POST">
-        {% csrf_token %}
-        <button class="btn btn-danger btn-lg">YES</button>
-        <a href="{% url 'home' %}" class="btn btn-success btn-lg">NO</a>
-    </form>
+<div>
+    <div>
+        <div>
+            <h5>Are You Sure?</h5>
+            <p>You are about to delete this post, this cannot be undone.</p>
+        <form method="POST">
+            {% csrf_token %}
+            <div>
+                <button type="submit" class="btn btn-danger">Delete</button>
+            </div>
+        </form>
+    </div>
+    </div>
 </div>
+{% endblock content %}

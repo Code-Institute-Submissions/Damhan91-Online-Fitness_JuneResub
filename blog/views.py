@@ -89,6 +89,10 @@ class CommentDelete(DeleteView):
     model = Comment
     template_name = 'delete-comment.html'
     success_url = reverse_lazy('blog.html')
+
+    def get_success_url(self, pk):
+        pk = self.kwargs['post_pk']
+        return reverse_lazy('post-detail', kwargs={'pk': pk})
     
 
 def home(response):
