@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404, reverse
+from django.shortcuts import render, get_object_or_404, reverse, redirect
 from django.contrib import messages
 from django.views import generic, View
 from django.views.generic.edit import UpdateView, DeleteView
@@ -70,13 +70,13 @@ class PostDetail(View):
 
 class PostLikes(View):
     def post(self, request, slug, *args, **kwargs):
-            post = get_object_or_404(Post, slug=slug)
-            if post.likes.filter(id=request.user.id).exists():
-                post.likes.remove(request.user)
-            else:
-                post.likes.add(request.user)
+        post = get_object_or_404(Post, slug=slug)
+        if post.likes.filter(id=request.user.id).exists():
+            post.likes.remove(request.user)
+        else:
+            post.likes.add(request.user)
 
-            return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+        return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
 
 class EditComment(UpdateView):
@@ -87,13 +87,11 @@ class EditComment(UpdateView):
 
 class CommentDelete(DeleteView):
     model = Comment
-    template_name = 'delete-comment.html'
-    success_url = reverse_lazy('blog.html')
+    template_name = 'comment_confirm_delete.html'   
 
-    def get_success_url(self, pk):
-        pk = self.kwargs['comment_pk']
-        return reverse_lazy('post-detail', kwargs={'pk': pk})
-    
+    def get_success_url(self, slug):
+        return redirect('post-detail', slug.post.id) 
+
 
 def home(response):
     return render(response, 'home.html')
