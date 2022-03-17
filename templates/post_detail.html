@@ -68,6 +68,8 @@
                     {{ comment.body | linebreaks }}
                     {% if comment.name == user.username %}
                         <a class="btn-sm btn-danger" href="{% url 'CommentDeleteView' comment.id %}">Delete Comment</a>
+                        <a class="btn-sm btn-danger" href="{% url 'EditComment' comment.id %}">Edit Comment</a>
+
                     {% endif %}
                 </div>
                 {% endfor %}

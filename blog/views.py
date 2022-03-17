@@ -83,7 +83,8 @@ class EditComment(UpdateView):
     model = Comment
     fields = ['body']
     template_name = 'edit-comment.html'
-
+    success_url = '/blog/'
+    
 
 class CommentDeleteView(DeleteView):
     model = Comment
