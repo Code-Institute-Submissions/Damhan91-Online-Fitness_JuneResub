@@ -11,4 +11,4 @@ urlpatterns = [
     path('exercises', views.exercises, name='exercises'),
     path('like/<slug:slug>/', views.PostLikes.as_view(), name='post_likes'),
     path('<pk>/delete/', views.CommentDeleteView.as_view(), name='CommentDeleteView'),
-    ]
+]
