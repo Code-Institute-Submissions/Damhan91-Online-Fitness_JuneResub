@@ -79,19 +79,10 @@ class PostLikes(View):
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
 
-class EditComment(UpdateView):
+class CommentDeleteView(DeleteView):
     model = Comment
-    form_class = 'EditCom'
-    template_name = 'edit-comment'
-
-
-class CommentDelete(DeleteView):
-    model = Comment
-    template_name = 'comment_confirm_delete.html'   
-
-    def get_success_url(self, slug):
-        return redirect('post-detail', slug.post.id) 
-
+    success_url = '/'
+    
 
 def home(response):
     return render(response, 'home.html')

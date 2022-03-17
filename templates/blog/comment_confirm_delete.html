@@ -6,6 +6,7 @@
         <div>
             <h5>Are You Sure?</h5>
             <p>You are about to delete this post, this cannot be undone.</p>
+            <p>{{ object.post.slug }} </p>
         <form method="POST">
             {% csrf_token %}
             <div>
