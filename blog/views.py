@@ -83,12 +83,18 @@ class EditComment(UpdateView):
     model = Comment
     fields = ['body']
     template_name = 'edit-comment.html'
-    success_url = '/blog/'
+    
+    def get_success_url(self):
+        slug = self.object.post.slug
+        return reverse("post_detail", kwargs={"slug" : slug})
     
 
 class CommentDeleteView(DeleteView):
     model = Comment
-    success_url = '/blog/'
+
+    def get_success_url(self):
+        slug = self.object.post.slug
+        return reverse("post_detail", kwargs={"slug" : slug})
     
 
 def home(response):
