@@ -29,12 +29,11 @@
                         <form class="d-inline" action="{% url 'post_likes' post.slug %}" method="POST">
                             {% csrf_token %}
                             {% if liked %}
-                            <button type="submit" name="blog_liked" value="{{post.slug}}" class="btn-like"><i class="fas fa-heart"></i></button>
+                            <button type="submit" name="blog_liked" value="{{post.slug}}" class="btn-like btn btn-primary"><i class="fas fa-heart"></i></button>
                             {% else %}
-                            <button type="submit" name="blog_liked" value="{{post.slug}}" class="btn-like"><i class="far fa-heart"></i></button>
+                            <button type="submit" name="blog_liked" value="{{post.slug}}" class="btn-like btn-secondary"><i class="far fa-heart"></i></button>
                             {% endif %}
                         </form>
-                        {% else %}
                         <strong class="text-secondary"><i class="far fa-heart"></i> {{ post.number_of_likes }} </strong>
                         {% endif %}
                     </div>
