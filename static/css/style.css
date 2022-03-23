@@ -40,6 +40,17 @@ footer {
     margin-right: auto;
 }
 
+.intro{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+    color: white;
+}
+
+.heading{
+    text-align: center;  
+}
+
 h4, h2, p{
     text-align: center;
 }
