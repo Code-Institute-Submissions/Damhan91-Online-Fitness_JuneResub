@@ -2,8 +2,8 @@
 
 {% block content %}
 
-<h1>Blogs</h1>
-<p>Each week, we will be posting up to date and helpful fitness blogs that will help you achiave your fitness goals.</p>
+<h1 class = "heading">Blogs</h1>
+<p class="intro">Each week, we will be posting up to date and helpful fitness blogs that will help you achiave your fitness goals.</p>
 
 <div class="container-fluid">
     <div class="row">
@@ -22,12 +22,13 @@
                                 </div>
                             </div>
                             <a href="{% url 'post_detail' post.slug %}" class="post-link">
-                                <h2 class="card-title">{{ post.title }}</h2>
-                                <p class="card-text">{{ post.excerpt }}</p>
+                                <h3 class="card-title text-dark">{{ post.title }}</h3>
+                                <p class="card-text text-dark">{{ post.excerpt }}</p>
                             </a>
                             <hr />
                             <p class="card-text text-muted h6">{{ post.created_on}} <i class="far fa-heart" class=></i>
-                                {{ post.number_of_likes }}</p>
+                                {{ post.number_of_likes }}
+                            </p>
                         </div>
                     </div>
                 </div>

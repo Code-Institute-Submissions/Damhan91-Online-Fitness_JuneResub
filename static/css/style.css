@@ -9,7 +9,7 @@ body{
     width: 100%; 
 }
 
-h1{
+h1, h2{
     color: white;
 }
 
@@ -32,7 +32,7 @@ footer {
     position: relative; 
     bottom: 0;
 }
-/*nutrition.html*/
+/*html styling*/
 
 #text {
     color: white;
