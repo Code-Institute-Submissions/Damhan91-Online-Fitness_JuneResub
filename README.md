@@ -52,7 +52,7 @@ Reply to comments\
 Shop for fitness products like protein etc\
 
 ## Testing
-## Deploying to github page
+## Deploying to github page 
 Link to Online Fitness can be found [Here](https://onlinefitnessdjango.herokuapp.com/)
 ## Validation
 ## Tech used
