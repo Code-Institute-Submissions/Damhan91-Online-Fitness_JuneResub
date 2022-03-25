@@ -45,11 +45,11 @@ As a developer I wanted the user to have one wbsite the user can go to for infor
 
 Possible features to add
 
-Subscription based system
-Private messenger between the user and the Personal Trainer
-Online classes
-Reply to comments 
-Shop for fitness products like protein etc
+Subscription based system\
+Private messenger between the user and the Personal Trainer\
+Online classes\
+Reply to comments\
+Shop for fitness products like protein etc\
 
 ## Testing
 ## Deploying to github page
