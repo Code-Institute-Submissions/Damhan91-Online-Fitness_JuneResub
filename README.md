@@ -4,7 +4,6 @@
 Introduction\
 User experience\
 Colors\
-The page\
 User stories\
 Testing\
 Deploying to github pages\
@@ -36,7 +35,6 @@ For the design of the website, I went with three main colours. Black and grey wi
 Images\
 For images I used them where i felt it they were needed and added to the aesthetic of the website. I initially had a large banner image covering the top half of the webpage, but I removed this as I felt it gave a bad user experience because each time you would have to scroll down to view the content
 
-## The Page
 ## User Stories
 ## Testing
 ## Deploying to github page
