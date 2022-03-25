@@ -24,7 +24,10 @@ The idea for this project was based around fitness industry and personnel traini
  ![Wireframe](https://github.com/Damhan91/Online-Fitness/blob/main/static/images/Wireframe.JPG)
  
 ## User Experince
-
+![Wireframe](https://github.com/Damhan91/Online-Fitness/blob/main/static/images/Wireframe.JPG)
+![Wireframe](https://github.com/Damhan91/Online-Fitness/blob/main/static/images/Wireframe.JPG)
+![Wireframe](https://github.com/Damhan91/Online-Fitness/blob/main/static/images/Wireframe.JPG)
+![Wireframe](https://github.com/Damhan91/Online-Fitness/blob/main/static/images/Wireframe.JPG)
 
 ## Colors
 
