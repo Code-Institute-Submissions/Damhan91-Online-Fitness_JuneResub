@@ -43,16 +43,17 @@ As a developer I wanted the user to have one wbsite the user can go to for infor
 ![Wireframe](https://github.com/Damhan91/Online-Fitness/blob/main/static/images/Blogs.JPG)
 ![Wireframe](https://github.com/Damhan91/Online-Fitness/blob/main/static/images/comments.JPG)
 
-Possible features to add\
+Possible features to add
 
-Subscription based system
-Private messenger between the user and the Personal Trainer
-Online classes
-Reply to comments 
-Shop for fitness products like protein etc
+Subscription based system\
+Private messenger between the user and the Personal Trainer\
+Online classes\
+Reply to comments\
+Shop for fitness products like protein etc\
 
 ## Testing
 ## Deploying to github page
+Link to Online Fitness can be found [Here](https://onlinefitnessdjango.herokuapp.com/)
 ## Validation
 ## Tech used
 ## Credits
