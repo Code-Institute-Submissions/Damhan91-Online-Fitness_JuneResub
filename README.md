@@ -42,6 +42,15 @@ As a developer I wanted the user to have one wbsite the user can go to for infor
 ![Wireframe](https://github.com/Damhan91/Online-Fitness/blob/main/static/images/Nutrition.JPG)
 ![Wireframe](https://github.com/Damhan91/Online-Fitness/blob/main/static/images/Blogs.JPG)
 ![Wireframe](https://github.com/Damhan91/Online-Fitness/blob/main/static/images/comments.JPG)
+
+Possible features to add\
+
+Subscription based system
+Private messenger between the user and the Personal Trainer
+Online classes
+Reply to comments 
+Shop for fitness products like protein etc
+
 ## Testing
 ## Deploying to github page
 ## Validation
