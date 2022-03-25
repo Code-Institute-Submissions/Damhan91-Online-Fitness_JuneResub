@@ -66,7 +66,7 @@ Connect to github login.\
 Search for the project you wish to connect. Once found click the connect button
 After this we click the deploy button at the bottom.\
 Link to Online Fitness can be found [Here](https://onlinefitnessdjango.herokuapp.com/)
-## Validation
+## Validation 
 Links to validation below
 
 ## Tech used
