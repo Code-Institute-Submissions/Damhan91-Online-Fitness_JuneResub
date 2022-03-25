@@ -23,7 +23,7 @@ class PostDetail(View):
         liked = False
         if post.likes.filter(id=self.request.user.id).exists():
             liked = True
-            
+
         return render(
             request,
             "post_detail.html",
@@ -83,19 +83,19 @@ class EditComment(UpdateView):
     model = Comment
     fields = ['body']
     template_name = 'edit-comment.html'
-    
+
     def get_success_url(self):
         slug = self.object.post.slug
-        return reverse("post_detail", kwargs={"slug" : slug})
-    
+        return reverse("post_detail", kwargs={"slug": slug})
+
 
 class CommentDeleteView(DeleteView):
     model = Comment
 
     def get_success_url(self):
         slug = self.object.post.slug
-        return reverse("post_detail", kwargs={"slug" : slug})
-    
+        return reverse("post_detail", kwargs={"slug": slug})
+
 
 def home(response):
     return render(response, 'home.html')
@@ -104,6 +104,6 @@ def home(response):
 def nutrition(response):
     return render(response, 'nutrition.html')
 
-    
+
 def exercises(response):
     return render(response, 'exercises.html')
