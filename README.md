@@ -1,9 +1,9 @@
 # Online Fitness
 
 ## Content
-Introduction
-User experience
-Colors
+Introduction\
+User experience\
+Colors\
 The page
 User stories
 Testing
