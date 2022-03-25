@@ -32,6 +32,7 @@ The idea for this project was based around fitness industry and personnel traini
 ## Colors
 
 ## The Page
+## User Stories
 ## Testing
 ## Deploying to github page
 ## Validation
