@@ -49,7 +49,7 @@ Subscription based system\
 Private messenger between the user and the Personal Trainer\
 Online classes\
 Reply to comments\
-Shop for fitness products like protein etc\
+Shop for fitness products like protein etc
 
 ## Testing
 ## Deploying to github page 
