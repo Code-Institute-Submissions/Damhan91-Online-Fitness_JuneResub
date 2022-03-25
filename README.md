@@ -67,6 +67,12 @@ Search for the project you wish to connect. Once found click the connect button
 After this we click the deploy button at the bottom.\
 Link to Online Fitness can be found [Here](https://onlinefitnessdjango.herokuapp.com/)
 ## Validation
+Links to validation below
+Github\
+Gitpod\
+Django\
+Heroku\
+Pep8 validation
 ## Tech used
 
 ## Credits
