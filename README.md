@@ -1,6 +1,6 @@
 # Online Fitness
 
-##Content
+## Content
 -Introduction
 -User experience
 -Colors
