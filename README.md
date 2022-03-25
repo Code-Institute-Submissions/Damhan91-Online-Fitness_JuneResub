@@ -68,11 +68,12 @@ After this we click the deploy button at the bottom.\
 Link to Online Fitness can be found [Here](https://onlinefitnessdjango.herokuapp.com/)
 ## Validation
 Links to validation below
+
+## Tech used
 Github\
 Gitpod\
 Django\
 Heroku\
 Pep8 validation
-## Tech used
-
 ## Credits
+I would like to have a shout out to my old mentor Felipe for helping me with the direction of the project when I first started. I would also like to thank my new mentor Jack, who helped my when I was struggling and gave me great guidance
