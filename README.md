@@ -52,8 +52,21 @@ Reply to comments\
 Shop for fitness products like protein etc
 
 ## Testing
-## Deploying to github page 
+## Deploying to Heroku
+Go onto Heroku\
+Login to my account.\
+Click create new app.\
+Choose name for your project, and your region.\
+Go to setting.\
+Click on reveal config vars\
+Add in CLOUDINARY_URL, DATABASE_URL and your secret_key\
+Go to resources and search for Postgres, and install the Heroku Postgres\
+Now head over to Deploy\
+Connect to github login.\
+Search for the project you wish to connect. Once found click the connect button
+After this we click the deploy button at the bottom.\
 Link to Online Fitness can be found [Here](https://onlinefitnessdjango.herokuapp.com/)
 ## Validation
 ## Tech used
+
 ## Credits
