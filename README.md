@@ -28,6 +28,8 @@ The idea for this project was based around fitness industry and personnel traini
 ![Wireframe](https://github.com/Damhan91/Online-Fitness/blob/main/static/images/Website%20sign%20in.JPG)
 ![Wireframe](https://github.com/Damhan91/Online-Fitness/blob/main/static/images/Website%20Logged%20In.JPG)
 
+The user experience I wanted the user to be able to look and find the information as quickly as possible. The website is easy and straight forward to register and sign up to and I wanted the main content of the website to only accessible to registered users.
+
 ## Design
 For the design of the website, I went with three main colours. Black and grey with white writing. I wanted the writing and information to be the thing that captures the users attention and not getting distracted by an array of different colours. The white writing looks best against the dark background and really stands out.
 
