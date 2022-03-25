@@ -69,6 +69,7 @@ Link to Online Fitness can be found [Here](https://onlinefitnessdjango.herokuapp
 ## Validation 
 Links to validation below
 
+## Bugs
 ## Tech used
 Github\
 Gitpod\
