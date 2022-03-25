@@ -61,7 +61,7 @@ Go to setting.\
 Click on reveal config vars\
 Add in CLOUDINARY_URL, DATABASE_URL and your secret_key\
 Go to resources and search for Postgres, and install the Heroku Postgres\
-Now head over to Deploy\
+Go to Deploy\
 Connect to github login.\
 Search for the project you wish to connect. Once found click the connect button
 After this we click the deploy button at the bottom.\
