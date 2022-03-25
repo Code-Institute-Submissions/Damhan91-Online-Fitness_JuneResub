@@ -76,4 +76,4 @@ Django\
 Heroku\
 Pep8 validation
 ## Credits
-I would like to have a shout out to my old mentor Felipe for helping me with the direction of the project when I first started. I would also like to thank my new mentor Jack, who helped my when I was struggling and gave me great guidance
+I would like to have a shout out to my old mentor Felipe for helping me with the direction of the project when I first started. I would also like to thank my new mentor Jack, who helped my when I was struggling and gave me great guidance.
