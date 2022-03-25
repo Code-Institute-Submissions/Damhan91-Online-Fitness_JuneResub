@@ -36,6 +36,8 @@ Images\
 For images I used them where i felt it they were needed and added to the aesthetic of the website. I initially had a large hero image covering the top half of the webpage, but I removed this as I felt it gave a bad user experience because each time you would have to scroll down to view the content
 
 ## User Stories
+
+As a developer I wanted the user to have one wbsite the user can go to for information about fitness. When I started going to the gym and taking an interest in fitness it was very overwhelming the amount of infomraiton that is out there and you are not sure what to follow. This website allows the user one website to follow the advice of a personel trainer to help them on their own to achieve their fitness goals.
 ## Testing
 ## Deploying to github page
 ## Validation
