@@ -52,6 +52,12 @@ Reply to comments\
 Shop for fitness products like protein etc
 
 ## Testing
+All the HTMl and CSS code works as expected  and as well as going through the website manually, I have tested the HTML, CSS and Django code using third party validations such as Pep8 for Django and W3C validationf for HTML and CSS.
+
+## Validation 
+Links to validation below
+
+## Bugs
 ## Deploying to Heroku
 Go onto Heroku\
 Login to my account.\
@@ -66,10 +72,6 @@ Connect to github login.\
 Search for the project you wish to connect. Once found click the connect button
 After this we click the deploy button at the bottom.\
 Link to Online Fitness can be found [Here](https://onlinefitnessdjango.herokuapp.com/)
-## Validation 
-Links to validation below
-
-## Bugs
 ## Tech used
 Github\
 Gitpod\
