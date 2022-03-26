@@ -55,7 +55,7 @@ Shop for fitness products like protein etc
 All the HTMl and CSS code works as expected  and as well as going through the website manually, I have tested the HTML, CSS and Django code using third party validations such as Pep8 for Django and W3C validationf for HTML and CSS.
 
 ## Validation 
-Links to validation below
+Links to validation below\
 [Django 1](https://github.com/Damhan91/Online-Fitness/blob/main/static/images/Django%20code.JPG)\
 [Django 2](https://github.com/Damhan91/Online-Fitness/blob/main/static/images/Django%20code2.JPG)\
 [HTML](https://github.com/Damhan91/Online-Fitness/blob/main/static/images/html.JPG)\
@@ -67,7 +67,7 @@ After a user comments on one of the blogs, if the press the back button in the t
 Go onto Heroku\
 Login to my account.\
 Click create new app.\
-Choose name for your project, and your region.\
+I choose a name for my project and the region that I am in (Eu).\
 Go to setting.\
 Click on reveal config vars\
 Add in CLOUDINARY_URL, DATABASE_URL and your secret_key\
@@ -75,7 +75,7 @@ Go to resources and search for Postgres, and install the Heroku Postgres\
 Go to Deploy\
 Connect to github login.\
 Search for the project you wish to connect. Once found click the connect button
-After this we click the deploy button at the bottom.\
+After this I click the deploy button at the bottom.\
 Link to Online Fitness can be found [Here](https://onlinefitnessdjango.herokuapp.com/)
 ## Tech used
 Github\
