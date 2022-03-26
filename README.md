@@ -62,6 +62,7 @@ Links to validation below
 [CSS](https://github.com/Damhan91/Online-Fitness/blob/main/static/images/css.JPG)\
 [Lighthouse](https://github.com/Damhan91/Online-Fitness/blob/main/static/images/lighthouse.JPG)
 ## Bugs
+After a user comments on one of the blogs, if the press the back button in the top left hand of the webpage, it will remove the comment. This only happens when they add a new comment.
 ## Deploying to Heroku
 Go onto Heroku\
 Login to my account.\
