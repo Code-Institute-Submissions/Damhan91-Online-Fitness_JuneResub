@@ -56,7 +56,7 @@ All the HTMl and CSS code works as expected  and as well as going through the we
 
 ## Validation 
 Links to validation below
-[Link text Here](https://link-url-here.org)
+[Django 1](https://github.com/Damhan91/Online-Fitness/blob/main/static/images/Django%20code.JPG)
 [Link text Here](https://link-url-here.org)
 [Link text Here](https://link-url-here.org)
 [Link text Here](https://link-url-here.org)
