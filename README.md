@@ -59,8 +59,8 @@ Links to validation below
 [Django 1](https://github.com/Damhan91/Online-Fitness/blob/main/static/images/Django%20code.JPG)\
 [Django 2](https://github.com/Damhan91/Online-Fitness/blob/main/static/images/Django%20code2.JPG)\
 [HTML](https://github.com/Damhan91/Online-Fitness/blob/main/static/images/html.JPG)\
-[CSS](https://link-url-here.org)\
-[Lighthouse](https://link-url-here.org)
+[CSS](https://github.com/Damhan91/Online-Fitness/blob/main/static/images/css.JPG)\
+[Lighthouse](https://github.com/Damhan91/Online-Fitness/blob/main/static/images/lighthouse.JPG)
 ## Bugs
 ## Deploying to Heroku
 Go onto Heroku\
