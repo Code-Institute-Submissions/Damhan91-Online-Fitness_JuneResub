@@ -92,5 +92,6 @@ I would like to have a shout out to my old mentor Felipe for helping me with the
 
 As I user I   | So I can
 ------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+Find workouts | So I know what workouts to so
+Find diets    | I know what I need to eat
+Want to read\ blogs  | I know what I need to eat
