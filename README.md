@@ -90,8 +90,9 @@ I would like to have a shout out to my old mentor Felipe for helping me with the
 
 #### User Stories for Users
 
-As I user I   | So I can
+As I user I would like to  | So I can
 ------------- | -------------
-Find workouts | So I know what workouts to so
-Find diets    | I know what I need to eat
-Want to read blogs  | Find out tthe latest tips and advice for better permoance and diet
+Find workouts | So I know what workouts to so.
+Find diets    | I know what I need to eat.
+Read blogs  | Find out the latest tips and advice for better permoance and diet.
+Comment on blogs  | To share my thoughts and ideas to other users.
