@@ -87,7 +87,10 @@ Pep8 validation
 I would like to have a shout out to my old mentor Felipe for helping me with the direction of the project when I first started. I would also like to thank my new mentor Jack, who helped my when I was struggling and gave me great guidance.
 ## Edited for Resubmission
 ### User Stories
-First Header  | Second Header
+
+#### User Stories for Users
+
+As I user I   | So I can
 ------------- | -------------
 Content Cell  | Content Cell
 Content Cell  | Content Cell
