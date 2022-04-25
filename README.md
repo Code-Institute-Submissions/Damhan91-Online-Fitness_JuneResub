@@ -87,20 +87,4 @@ Pep8 validation
 I would like to have a shout out to my old mentor Felipe for helping me with the direction of the project when I first started. I would also like to thank my new mentor Jack, who helped my when I was struggling and gave me great guidance.
 ## Edited for Resubmission
 ### User Stories
-As a restaurant or bar manager I would like to	So that I can
-Browse products	purchase what I need
-Search products	find something specific
-Filter products by style	compare the offerings
-Filter products by packaging (can, bottle, keg)	choose serving style
-See offerings by a specific producer	get an idea of the producer's offer
-Buy a product	serve it to customers
-Pay using a card	complete my purchase
-Create a profile	save my information and review past orders
-Update my profile information	be contacted by the importer
-See my shopping cart before paying	know the cost and content before the purchase
-Update my shopping cart	make decisions before the purchase
-See details about a product	make an informed purchasing decision
-View my order history	be reminded of previous purchases
-Receive an email confirmation about my order	have archived information about it
-Contact the importer	know about the status of an order
-Know the newest arrivals	buy the freshest products
+
