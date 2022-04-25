@@ -92,7 +92,14 @@ I would like to have a shout out to my old mentor Felipe for helping me with the
 
 As I user I would like to  | So I can
 ------------- | -------------
-Find workouts | So I know what workouts to so.
+Find workouts | So I know what workouts to do.
 Find diets    | I know what I need to eat.
-Read blogs  | Find out the latest tips and advice for better permoance and diet.
+Read blogs  | Find out the latest tips and advice for better performance and diet.
 Comment on blogs  | To share my thoughts and ideas to other users.
+
+#### User Stories for Owner (The Personel Trainer)
+
+As I user I would like to  | So I can
+------------- | -------------
+Share information | So I can share this with my clients.
+Add blogs| Share the mopst up to date information with my clients.
