@@ -94,4 +94,4 @@ As I user I   | So I can
 ------------- | -------------
 Find workouts | So I know what workouts to so
 Find diets    | I know what I need to eat
-Want to read\ blogs  | I know what I need to eat
+Want to read blogs  | Find out tthe latest tips and advice for better permoance and diet
