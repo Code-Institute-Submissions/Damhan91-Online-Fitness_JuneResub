@@ -97,9 +97,13 @@ Find diets    | I know what I need to eat.
 Read blogs  | Find out the latest tips and advice for better performance and diet.
 Comment on blogs  | To share my thoughts and ideas to other users.
 
-#### User Stories for Owner (The Personel Trainer)
 
-As I user I would like to  | So I can
-------------- | -------------
-Share information | So I can share this with my clients.
-Add blogs| Share the mopst up to date information with my clients.
+
+### Testing
+#### Website Testing
+Each navigation link works as intended, including the logout
+The navigation collapses as intended on mobile devices.
+Only loged in users are able to view the excersises, diet and blog content.
+Authenticated user are able to delete and edit their own comments on each blog.
+The likes and comment icon, increase in number each time a like or comment is added.
+When a comment in edited or delted the user is brought back to the blog.
