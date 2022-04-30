@@ -102,9 +102,9 @@ Edit and Delete comments | Being able to ewdit or delete my own comments.
 
 ### Testing
 #### Website Testing
-- Each navigation link works as intended, including the logout\
-- The navigation collapses as intended on mobile devices.\
-- Only loged in users are able to view the excersises, diet and blog content.\
-- Authenticated user are able to delete and edit their own comments on each blog.\
-- The likes and comment icon, increase in number each time a like or comment is added.\
+- Each navigation link works as intended, including the logout
+- The navigation collapses as intended on mobile devices.
+- Only loged in users are able to view the excersises, diet and blog content.
+- Authenticated user are able to delete and edit their own comments on each blog.
+- The likes and comment icon, increase in number each time a like or comment is added.
 - When a comment in edited or delted the user is brought back to the blog.
