@@ -98,7 +98,7 @@ Read blogs  | Find out the latest tips and advice for better performance and die
 Comment on blogs  | To share my thoughts and ideas to other users.
 Edit and Delete comments | Being able to ewdit or delete my own comments.
 
-User Stories Board [User Stories] (https://github.com/Damhan91/Online-Fitness/projects/1)
+[User Stories](https://github.com/Damhan91/Online-Fitness/projects/1)
 
 ### Testing
 #### Website Testing
